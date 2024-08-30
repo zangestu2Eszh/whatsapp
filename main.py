@@ -52,7 +52,7 @@ def send_my_image(driver, phone, path):
 def friday():
     driver = webdriver.Chrome(options=op)
     for i in my_numbers:
-        send_my_image(driver=driver, phone=i, path='Images/friday.jpg')
+        send_my_image(driver=driver, phone=i, path='friday.jpg')
 
 
 ch = "-1"
